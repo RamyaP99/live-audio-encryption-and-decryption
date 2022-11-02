@@ -19,7 +19,7 @@ But e Must be An integer, Not be a factor of n.
 
 Let us now consider it to be equal to 3.
 
-    Our Public Key is made of n and e
+Our Public Key is made of n and e
     
 **>> Generating Private Key : **
 
@@ -28,7 +28,7 @@ We need to calculate Φ(n) :
 Such that Φ(n) = (P-1)(Q-1)     
       so,  Φ(n) = 3016
       
-    Now calculate Private Key, d : 
+Now calculate Private Key, d : 
 d = (k*Φ(n) + 1) / e for some integer k
 
 For k = 2, value of d is 2011.
